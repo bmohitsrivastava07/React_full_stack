@@ -26,7 +26,7 @@ const Card = (props) => {
                 <img src={props.img} className="card-img-top img-fluid" />
                 <div className="card-body">
                     <h5 className="card-title">{props.name}</h5>
-                    <p className="card-text">{props.price}</p>
+                    <p className="card-text">Rs. {props.price}</p>
                     <button className="btn btn-success" onClick={showAlert}>ADD</button>
                 </div>
             </div>
