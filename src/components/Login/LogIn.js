@@ -160,7 +160,7 @@ class LogIn extends React.Component {
                             value={props.values.password}
                           />
                         </div>
-                        <span><NavLink to="/admin">admin_login</NavLink></span>
+                       /* <span><NavLink to="/admin">admin_login</NavLink></span>*/
                         <div className="form-group">
                           <div className="row">
                             <div className="col text-right">
