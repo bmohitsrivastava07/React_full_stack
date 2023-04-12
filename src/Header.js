@@ -69,10 +69,11 @@ class Header extends React.Component {
         <Navbar.Brand href="" style={{fontWeight:"bold",fontFamily:"cursive"}}></Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
+          //gap between the navlink
             <Nav.Link href="/home"  style={{color:"gray",fontWeight:"bold",fontSize:"120%"}}>Home</Nav.Link>
             <Nav.Link href="/about" style={{color:"gray",fontWeight:"bold",fontSize:"120%"}}>About</Nav.Link>
             <Nav.Link href="/product"style={{color:"gray",fontWeight:"bold",fontSize:"120%"}}>Products</Nav.Link>
-             <Nav.Link href="/profile"style={{color:"gray",fontWeight:"bold",fontSize:"120%"}}>Profile</Nav.Link> 
+            <Nav.Link href="/profile"style={{color:"gray",fontWeight:"bold",fontSize:"120%"}}>Profile</Nav.Link> 
             <Nav.Link href="/feedback"style={{color:"gray",fontWeight:"bold",fontSize:"120%"}}>Feedback</Nav.Link>
             <Nav.Link href="/cart"style={{color:"gray",fontWeight:"bold",fontSize:"120%"}}>Cart</Nav.Link>
             
