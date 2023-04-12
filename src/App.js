@@ -14,7 +14,7 @@ import Product from "./Product";
 import {CartProvider} from 'react-use-cart';
 import Cart from './Cart';
 import Profile from "./Profile";
-import Admin from './Admin';
+/*import Admin from './Admin';*/
 function App() {
   return (
     <div>
@@ -24,7 +24,7 @@ function App() {
           <Route path="/" exact component={LogIn} />
           <Route path="/register" exact component={Register} />
         <ProtectedRoute  path="/home" component={Home}/>
-        <ProtectedRoute path="/admin" component={Admin}/>
+        //<ProtectedRoute path="/admin" component={Admin}/>
         <ProtectedRoute path="/about" component={About}/>
         <ProtectedRoute path="/feedback" component={Feedback}/>
           {/* <Route exact path="/about" component={About} />
