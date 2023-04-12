@@ -35,32 +35,32 @@ const data = {
     },
     {
         id: "5",
-        name: "mno",
+        name: "Traditional1",
         price: 990,
         img: Traditional1,
     },
     
     {
         id: "6",
-        name: "mno",
+        name: "WalkInThePark",
         price: 990,
         img: WalkInThePark,
     },
     {
         id: "7",
-        name: "mno",
+        name: "TraditionalArt",
         price: 990,
         img: TraditionalArt,
     },
     {
         id: "8",
-        name: "mno",
+        name: "AutumnPathWay",
         price: 990,
         img:AutumnPathWay,
     },
     {
-        id: "5",
-        name: "mno",
+        id: "9",
+        name: "Traditional1",
         price: 990,
         img: Traditional1,
     }
